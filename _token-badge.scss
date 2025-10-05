@@ -1,0 +1,57 @@
+.token-badge__image {
+  width: 16px;
+  border-radius: 50%;
+}
+.token-badge__symbol,
+.token-badge__change,
+.token-badge__price{
+  color: var(--cn-title-color);
+  text-transform: uppercase;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  margin: 0;
+}
+.token-badge {
+  position: relative;
+  display: inline-flex;
+  padding: 4px 8px 4px 4px;
+  align-items: end;
+  gap: 4px;
+  background-color: var(--cn-content-bg-darken);
+  width: fit-content;
+  border-radius: 15px;
+}
+.post-detail__tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.post-loop__tokens {
+  margin: 0 0 8px 0;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.token-badge__change-color--up{
+  color: var(--cn-color-green);
+}
+.token-badge__change-color--down{
+  color: var(--cn-color-red);
+}
+.token-badge__link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.post-detail__token {
+  margin: 0;
+  padding: 0;
+  display: contents;
+}
+
